@@ -1,5 +1,5 @@
-html,
-body {
+body,
+html {
   margin: 0;
   padding: 0;
   background: #ededed;
@@ -9,120 +9,107 @@ body {
   align-items: center;
   font-size: 13px;
   font-family: "Source Sans 3";
-  color: #000000;
+  color: #000
 }
-
-header{
-    background: white;
-    width: 365px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5px;
-    margin-top: 10px;
-    overflow: hidden;
+header {
+  background: #fff;
+  width: 365px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+  margin-top: 10px;
+  overflow: hidden
 }
-
 section {
-  background: white;
+  background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: left;
   width: 375px;
-  margin: 20px auto;
+  margin: 20px auto
 }
-
 .post {
   width: 375px;
-  height: 375px;
+  height: 375px
 }
-
-.boldtext {
-}
-
-.smalltext {
-}
-
 .avatar {
   width: 34px;
   height: 34px;
-  border-radius: 50%;
+  border-radius: 50%
 }
-
+.postfooter,
 .postheader {
-  display: flex;
+  margin-left: 10px;
+  padding: 15px 0;
+  display: flex
+}
+.postheader {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 5px;
-  margin-left: 10px;
-  padding: 15px 0;
+  gap: 5px
 }
-
 .postfooter {
   margin-top: -5px;
-  margin-left: 10px;
-  padding: 15px 0;
-  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 10px;
+  gap: 10px
 }
-
+.postfooter,
 .postname {
-  display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: flex-start
 }
-
-.bold, h2 {
+.postname {
+  display: flex
+}
+.bold,
+h2 {
   font-weight: 700;
-  opacity: 0.9;
-  color: #6930c3;
+  opacity: .9;
+  color: #6930c3
 }
-
-.bold:hover, .bold:active, h2:hover, h2:active, .icon:hover, .icon:active {
-    opacity: 1;
-    cursor: pointer;
+.bold:active,
+.bold:hover,
+.icon:active,
+.icon:hover,
+h2:active,
+h2:hover {
+  opacity: 1;
+  cursor: pointer
 }
-
 .icon {
   width: 18px;
   height: 23px;
-  opacity: 0.7;
+  opacity: .7
 }
-
-
-
 .iconlist {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 10px;
+  gap: 10px
 }
-
-h2 {
-  font-size: 13px;
-  margin: 0;
-}
-
+h2,
 p {
-  margin: 0;
+  margin: 0
+}
+h2 {
+  font-size: 13px
+}
+p {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 12px
 }
-
-.logo{
-    width: 150px;
-    height: 75px;
-    
+.logo {
+  width: 150px;
+  height: 75px
 }
-
-.mainavatar{
-    margin-right: 10px;
+.mainavatar {
+  margin-right: 10px
 }
